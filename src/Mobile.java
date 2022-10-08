@@ -1,4 +1,4 @@
-public class Deskphone implements Telephone {
+public  class Mobile implements Telephone {
 
     @Override
     public boolean powerOn() {
@@ -14,7 +14,7 @@ public class Deskphone implements Telephone {
         System.out.println("-----------------------------------");
         System.out.println("Dialling number for calling someone");
         System.out.println("-----------------------------------");
-System.out.println("You Entered the number"+number);
+        System.out.println("You Entered the number"+number);
         System.out.println();
         calling(number);
         return;
@@ -23,11 +23,11 @@ System.out.println("You Entered the number"+number);
 
     @Override
     public void calling(String number) {
-            System.out.println("-----------------------------------");
-            System.out.println("Calling Notification with caller details");
-            System.out.println("-----------------------------------");
-            System.out.println("Calling " + number);
-            return;
+        System.out.println("-----------------------------------");
+        System.out.println("Calling Notification with caller details");
+        System.out.println("-----------------------------------");
+        System.out.println("Calling " + number);
+        return;
     }
 
     @Override
